@@ -1,5 +1,4 @@
-from finalQAM import *
-
+from Paper2Functions import *
 
 map = {
     0:complex(-3,-3), 1:complex(-3,-1), 2:complex(-3,3), 3:complex(-3,1),
@@ -31,4 +30,4 @@ for j in range(10000):
     Maps = nextGeneration(mapper1, A, 8, map)
     print(rank_fitness(mapper1, Maps, map))
     A = []
-print(Maps[-1])
+    print(j)
